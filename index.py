@@ -5,4 +5,8 @@ def calculate_sum(num):
     
     return num + calculate_sum(num - 1)
 
-print(calculate_sum(5))
+n = int(input("Please enter a number: "))
+
+sum = calculate_sum(n)
+
+print(f"the sum from 1 to {n} is: {sum}")
