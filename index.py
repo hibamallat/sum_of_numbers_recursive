@@ -5,3 +5,4 @@ def calculate_sum(num):
     
     return num + calculate_sum(num - 1)
 
+print(calculate_sum(5))
